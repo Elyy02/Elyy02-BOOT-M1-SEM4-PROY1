@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#DAE3DE, #DAE3DE, #DAE3DE);
+    /* fondo */
+    background-position: center;
+    /* fondo central */
+    background-size: cover;
+    padding-left: 8%;
+    /* margenes izquierdos */
+    padding-right: 8%;
+    /* margenes derechos */
+    box-sizing: border-box;
+    /* borde */
+}
+
+.menu {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.icono-menu {
+    width: 30px;
+}
+
+
+/* estilo para el menu */
+
+.menu-nav {
+    flex: 1;
+    text-align: right;
+}
+
+.lista {
+    /* menu sin estilo */
+    list-style: none;
+    /* Menu horizontal*/
+    display: inline-block;
+    /* Separacion entre las opciones del menu*/
+    margin-left: 60px;
+}
+
+.opcion {
+    color: black;
+}
+
+.columna {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.fila {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+.parrafo1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.boton-correo {
+    /* largo del boton*/
+    width: 180px;
+    /* ancho del boton*/
+    height: 40px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 20px;
+    background-color: #99CCBF;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.caja {
+    /* largo del boton*/
+    width: 350px;
+    /* ancho del boton*/
+    height: 40px;
+    /* Color del texto dentro del boton*/
+    color: black;
+    font-size: 20px;
+    background-color: #CFD7E4;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.imagen1 {
+    width: 50px;
+    display: inline-block;
+    /* valores izquierdo/ derecho*/
+    padding: 0px 27px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ----------TERMINA EL MENU------------*/
