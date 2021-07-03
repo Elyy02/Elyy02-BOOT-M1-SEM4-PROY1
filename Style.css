@@ -63,6 +63,7 @@
 
 .fila {
     flex-basis: 50%;
+    margin-bottom: 35px;
 }
 
 h1 {
@@ -152,4 +153,42 @@ h2 {
     border-radius: 8px;
     margin: 20px;
     text-align: center;
+}
+
+.contenedor-adicionales {
+    margin-top: 50px;
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(#DAE3DE, #DAE3DE, #DAE3DE);
+    /* fondo */
+    background-position: center;
+    /* fondo central */
+    background-size: cover;
+    padding-left: 8%;
+    /* margenes izquierdos */
+    padding-right: 8%;
+    /* margenes derechos */
+    box-sizing: border-box;
+    /* borde */
+}
+
+.fila2 {
+    flex-basis: 50%;
+    margin-bottom: 35px;
+}
+
+.imagen2 {
+    width: 70px;
+    display: inline-block;
+    /* valores izquierdo/ derecho*/
+    padding: 0px 27px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto-adicionales {
+    margin-top: 40px;
+    font-size: 40px;
 }
